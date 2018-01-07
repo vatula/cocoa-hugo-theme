@@ -6,16 +6,16 @@ The theme should continue to work even if this directory is removed.
 
 ## Getting Started
 
-Install Less (version 2.7.*)
+Install build tool chain
 
 ```sh
-npm install -g less
+npm i
 ```
 
-After editing the .less files, run Make
+After editing the .less files, run
 
 ```sh
-make css
+npm run build
 ```
 
 Commit both `dev/less` and `static/css`.
@@ -28,6 +28,6 @@ Commit both `dev/less` and `static/css`.
 |pygments.less        | Syntax highlighting                  |
 |main.less            | Main file that @includes files below |
 |site.less            | Core styles                          |
-|markdown.less        | Styles for rendered Markdown content |
+|markup.less          | Styles for rendered content |
 |util.less            |                                      |
 |flexbox-prefixes.less|                                      |

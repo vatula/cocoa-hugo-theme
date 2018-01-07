@@ -55,7 +55,7 @@ body {
   width: 100%;
   min-height: 100%;
   font-weight: 400;
-  font-family: 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
   color: #111;
   line-height: 1.6;
   text-rendering: optimizeLegibility !important;
@@ -174,12 +174,12 @@ section.header .content {
 }
 section.header .avatar {
   border-radius: 50%;
-  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
   max-width: 50px;
 }
 section.header .name {
   font-size: 18px;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Oswald', 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
   color: #333;
@@ -188,7 +188,7 @@ section.header .name {
 }
 section.header h3.self-intro {
   font-size: 1em;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Oswald', 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
   color: #333;
@@ -200,7 +200,7 @@ section.header nav {
   font-size: 14px;
   margin-bottom: 16px;
   text-transform: uppercase;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Oswald', 'Helvetica Neue', 'Arial', sans-serif;
 }
 section.header nav ul {
   list-style: none;
@@ -351,7 +351,7 @@ section.main .content .title-container {
 section.main .content .title-container .initials {
   display: none;
   font-size: 18px;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Oswald', 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
   color: #333;
@@ -371,7 +371,7 @@ section.main .content .title-container .initials a:hover {
 }
 section.main .content .page-heading {
   font-size: 18px;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Oswald', 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
   color: #333;
@@ -436,9 +436,9 @@ section.main .container.f04 .content {
   align-items: center;
 }
 section.main .container.f04 .content .num {
-  margin: 30px 0px 30px 0;
+  margin: 30px 0 30px 0;
   font-weight: 200;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Oswald', 'Helvetica Neue', 'Arial', sans-serif;
   font-size: 50px;
 }
 section.main .container.f04 .content .detail {
@@ -493,7 +493,7 @@ section.main .container .content .no-bullet {
 }
 section.main .container .content .no-bullet .date {
   font-size: 18px;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Oswald', 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
   color: #333;
@@ -569,51 +569,51 @@ img.profile {
 .page-heading a {
   color: #333;
 }
-section.main .content .markdown h1,
-section.main .content .markdown h2,
-section.main .content .markdown h3,
-section.main .content .markdown h4,
-section.main .content .markdown h5,
-section.main .content .markdown h6 {
+section.main .content .markup h1,
+section.main .content .markup h2,
+section.main .content .markup h3,
+section.main .content .markup h4,
+section.main .content .markup h5,
+section.main .content .markup h6 {
   font-size: 18px;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Oswald', 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
   color: #333;
   text-transform: none;
   margin-top: 1.75rem;
 }
-section.main .content .markdown h1 {
+section.main .content .markup h1 {
   font-size: 1.75rem;
   margin-bottom: 2rem;
 }
-section.main .content .markdown h2 {
+section.main .content .markup h2 {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
 }
-section.main .content .markdown h3 {
+section.main .content .markup h3 {
   font-size: 1rem;
   margin-bottom: 1rem;
 }
-section.main .content .markdown h4,
-section.main .content .markdown h5,
-section.main .content .markdown h6 {
+section.main .content .markup h4,
+section.main .content .markup h5,
+section.main .content .markup h6 {
   font-size: 1rem;
   margin-bottom: 1rem;
-  letter-spacing: none;
+  letter-spacing: unset;
 }
-section.main .content .markdown code,
-section.main .content .markdown pre {
-  font-family: 'Ubuntu Mono', 'Menlo', monospace;
+section.main .content .markup code,
+section.main .content .markup pre {
+  font-family: 'Cousine', 'Menlo', monospace;
   font-size: 1rem;
   background-color: #f7f7f7;
 }
-section.main .content .markdown code {
+section.main .content .markup code {
   /* enclosed by single backtick (`) */
   padding: .15em .5em;
   border-radius: 2px;
 }
-section.main .content .markdown pre {
+section.main .content .markup pre {
   /* Hugo specific: consider using the 'highlight' shortcode */
   display: block;
   margin-top: 1rem;
@@ -625,102 +625,102 @@ section.main .content .markdown pre {
   word-break: break-all;
   word-wrap: break-word;
 }
-section.main .content .markdown pre code {
+section.main .content .markup pre code {
   /* enclosed by 3 backticks (```) */
   padding: 0;
   font-size: 1rem;
 }
-section.main .content .markdown a code {
+section.main .content .markup a code {
   color: #428bca !important;
 }
-section.main .content .markdown a code:hover {
+section.main .content .markup a code:hover {
   text-decoration: underline;
 }
-section.main .content .markdown p {
+section.main .content .markup p {
   /* Invoked by line break */
   font-size: 1rem;
   margin-top: 0;
   margin-bottom: 1em;
 }
-section.main .content .markdown ul,
-section.main .content .markdown ol,
-section.main .content .markdown dl {
+section.main .content .markup ul,
+section.main .content .markup ol,
+section.main .content .markup dl {
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
-section.main .content .markdown dt {
+section.main .content .markup dt {
   font-weight: bold;
 }
-section.main .content .markdown dd {
+section.main .content .markup dd {
   margin-bottom: .5rem;
 }
-section.main .content .markdown ul {
+section.main .content .markup ul {
   margin-bottom: 1.25rem;
 }
-section.main .content .markdown ul li {
+section.main .content .markup ul li {
   list-style-type: disc;
 }
-section.main .content .markdown ol li {
+section.main .content .markup ol li {
   list-style-type: decimal;
 }
-section.main .content .markdown li {
+section.main .content .markup li {
   list-style-position: outside;
   margin-left: 1em;
 }
-section.main .content .markdown em {
+section.main .content .markup em {
   font-style: italic;
 }
-section.main .content .markdown strong {
+section.main .content .markup strong {
   font-weight: 700;
 }
-section.main .content .markdown hr {
+section.main .content .markup hr {
   position: relative;
   margin: 1.75rem 0;
   border: 0;
   border-top: 1px solid #808080;
   border-top: 1px solid #999999;
 }
-section.main .content .markdown abbr {
+section.main .content .markup abbr {
   font-size: 0.85rem;
   font-weight: bold;
   color: #666666;
   text-transform: uppercase;
 }
-section.main .content .markdown abbr[title] {
+section.main .content .markup abbr[title] {
   cursor: help;
   border-bottom: 1px dotted #808080;
 }
-section.main .content .markdown blockquote {
+section.main .content .markup blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
   color: #7a7a7a;
   border-left: .25rem solid #e5e5e5;
 }
-section.main .content .markdown blockquote p:last-child {
+section.main .content .markup blockquote p:last-child {
   margin-bottom: 0;
 }
 @media (min-width: 550px) {
-  section.main .content .markdown blockquote {
+  section.main .content .markup blockquote {
     padding-right: 5rem;
     padding-left: 1.25rem;
   }
 }
-section.main .content .markdown img {
+section.main .content .markup img {
   margin: 1rem 0;
   max-width: 100%;
 }
-section.main .content .markdown table {
+section.main .content .markup table {
   margin-bottom: 1rem;
   width: 100%;
   border: 1px solid #e5e5e5;
   border-collapse: collapse;
 }
-section.main .content .markdown td,
-section.main .content .markdown th {
+section.main .content .markup td,
+section.main .content .markup th {
   padding: .25rem .5rem;
   border: 1px solid #e5e5e5;
 }
-section.main .content .markdown tbody tr:nth-child(odd) td,
-section.main .content .markdown tbody tr:nth-child(odd) th {
+section.main .content .markup tbody tr:nth-child(odd) td,
+section.main .content .markup tbody tr:nth-child(odd) th {
   background-color: #f7f7f7;
 }
