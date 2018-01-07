@@ -69,7 +69,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-alpha2/contrib/auto-render.min.js" integrity="sha384-cXpztMJlr2xFXyDSIfRWYSMVCXZ9HeGXvzyKTYrn03rsMAlOtIQVzjty5ULbaP8L" crossorigin="anonymous"></script>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-      renderMathInElement(document.body, {delimiters: [{left: "{{ .Site.Params.stemLeftBlockDelimiter | default "\\\\[" }}", right: "{{ .Site.Params.stemRightBlockDelimiter | default "\\\\]" }}", display: true}, {left: "{{ .Site.Params.stemLeftInlineDelimiter | default "\\[\\[" }}", right: "{{ .Site.Params.stemRightInlineDelimiter | default "\\]\\]" }}", display: false}]});
+      renderMathInElement(document.body, {delimiters: [{left: "{{ .Site.Params.stemLeftBlockDelimiter | default "\\[" }}", right: "{{ .Site.Params.stemRightBlockDelimiter | default "\\]" }}", display: true}, {left: "{{ .Site.Params.stemLeftInlineDelimiter | default "[[" }}", right: "{{ .Site.Params.stemRightInlineDelimiter | default "]]" }}", display: false}]});
     });
 </script>
 {{ end }}
